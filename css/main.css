@@ -96,24 +96,31 @@ a:hover {
   letter-spacing: 4px;
   margin-bottom: 30vh;
   width: 80%;
+  margin-top: 19vh;
 }
 
 .banner {
   z-index: -1000;
   position: absolute;
-  width: 100%;
   display: flex;
   padding: 0;
   height: 100%;
+  width: 100%;
 }
 
 .banner-two {
   z-index: -1010;
   position: absolute;
   width: 75%;
-  margin-top: 20vh;
+  margin-top: 20.5vh;
   display: flex;
   padding: 0;
+}
+.banner-three {
+  z-index: -1009;
+  position: absolute;
+  width: 100%;
+  left: 0vw;
 }
 /* Archive */
 .prompt {
@@ -291,6 +298,7 @@ h6 {
 }
 
 .caption {
+  width: 70%;
   margin-top: 0vh;
   margin-bottom: 20vh;
 }
@@ -336,21 +344,22 @@ p {
 }
 /* Footer */
 .footer-shop {
-  margin-top: 20vh;
+  margin-top: 22vh;
   margin-left: 9vh;
   display: flex;
   width: 90vw;
 }
 
 .footer-home {
-  padding-top: 0;
+  margin-left: 9vh;
+  padding-top: 20vh;
   margin-top: 5vh;
   display: flex;
   width: 90vw;
 }
 
 .footer-archive {
-  margin-top: 170vh;
+  margin-top: 0vh;
   margin-left: 9vh;
   display: flex;
   width: 90vw;
