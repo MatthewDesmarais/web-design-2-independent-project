@@ -324,11 +324,12 @@ p {
 }
 
 .prompt-button {
+
 }
 
 .collection {
+  display: inline;
   background-color: black;
-  width: fit-content;
   color: white;
   text-align: left;
   padding: 5px;
