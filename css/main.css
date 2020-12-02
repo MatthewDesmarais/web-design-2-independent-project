@@ -140,8 +140,7 @@ a:hover {
   position: absolute;
   background-repeat: no-repeat;
   overflow: scroll;
-  width: 100vw;
-  height: 3200px;
+  width: 1920px;
 }
 
 .archive {
@@ -322,7 +321,7 @@ p {
   font-size: 16px;
   color: white;
   background-color: black;
-  border-c olor: black;
+  border-color: black;
   text-align: center;
   padding-top: 3px;
 }
