@@ -53,7 +53,7 @@ a:hover {
   color: white;
   padding-left: 10vh;
   padding-right: 3vh;
-  padding-top: 3vh;
+  padding-top: 3.5vh;
   font-size: 16px;
 }
 
@@ -61,7 +61,7 @@ a:hover {
   color: black;
   padding-left: 10vh;
   padding-right: 3vh;
-  padding-top: 3vh;
+  padding-top: 3.5vh;
   font-size: 16px;
 }
 
@@ -79,7 +79,7 @@ a:hover {
 
 .about {
   width: 64%;
-  z-index: -1300;
+  z-index: -3;
   color: #000000;
   display: flex;
   height: 65vh;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .banner {
-  z-index: -1000;
+  z-index: -1;
   position: absolute;
   display: flex;
   padding: 0;
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .banner-two {
-  z-index: -1010;
+  z-index: -1;
   position: absolute;
   width: 75%;
   margin-top: 20.5vh;
@@ -117,7 +117,7 @@ a:hover {
   padding: 0;
 }
 .banner-three {
-  z-index: -1009;
+  z-index: -1;
   position: absolute;
   width: 100%;
   left: 0vw;
@@ -136,18 +136,51 @@ a:hover {
 }
 
 .archive-background {
-  z-index: -3000;
+  z-index: -1;
   position: absolute;
   background-repeat: no-repeat;
   overflow: scroll;
-  width: 1920px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .archive {
+  background-color: #white;
   margin: 0;
 }
 
+.recent-work {
+  display: inline-block;
+}
+
+.recent-image {
+  position: absolute;
+  z-index: -1;
+  padding: 0vh;
+  margin: 0vh;
+  width: 99vw;
+  height: 100vh;
+}
+
+.recent-description {
+  position: absolute;
+  z-index: 10;
+  padding-top: 65vh;
+  color: white;
+  position: absolute;
+  margin-left: 18vh;
+}
+
+.recent-number {
+  margin-left: 18vh;
+  padding-top: 10vh;
+  position: absolute;
+  color: white;
+}
+
 .inaworld-container {
+  position: absolute;
+  z-index: 11;
   display: flex;
   height: 10vh;
   justify-content: flex-center;
@@ -307,7 +340,13 @@ h6 {
   padding-bottom: 8vh;
 }
 
+.article-spacing-02 {
+  margin: 0;
+  padding-bottom: 4vh;
+}
+
 .statment-spacing {
+  padding-top: 1vh;
   margin: 0;
   padding-bottom: 3vh;
 }
